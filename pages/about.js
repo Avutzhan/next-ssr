@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from '../components/image';
 
 const About = () => {
     return (
@@ -6,7 +7,8 @@ const About = () => {
             <h1>About</h1>
             <Link href='/'>
                 <button>Back</button>
-            </Link>
+            </Link> <br /> <br />
+            <Image />
             <p>test test </p>
         </div>
     );
